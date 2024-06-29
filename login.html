@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 4 JS LOGIN</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="vh-100 d-flex justify-content-center align-items-center">
+        <div class="container">
+        <div class="login-container shadow-lg p-5">
+                <h1 class="opacity text-center text-white">Login</h1>
+                <form>
+                    <input type="email" placeholder="EMAIL" id="userMail" class="form-control my-4"/>
+                    <input type="password" placeholder="PASSWORD" id="userPass" class="form-control my-4"/>
+                    <button class="btn btn-primary w-100 mb-3" id="btnLogin" >SUBMIT</button>
+                </form>
+                <div class="register-forget opacity text-center text-white">
+                    <p>already have an account? <a href="signup.html">Register</a></p>
+                    <h4 id="wrongMsg" class="text-center alert alert-danger d-none">Wrong Email or Password</h4>
+                </div>
+            </div>
+            <div class="circle circle-two"></div>
+    </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
